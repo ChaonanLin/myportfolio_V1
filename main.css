@@ -1,0 +1,246 @@
+/* set the flex display */
+body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* css of header */
+header {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 80%;
+}
+
+#logo_container {
+    width: 49.3%;
+    display: inline-block;
+}
+
+.logo {
+    width: 25%;
+    border-radius: 50%;
+}
+
+#author {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+
+#name {
+    font-size: 2em;
+    margin: 0.5em 0;
+    font-family: 'Poppins', sans-serif;
+    color: #006ca4;
+}
+
+#title {
+    font-size: 1em;
+    margin-top: -1em;
+    font-family: 'Poppins', sans-serif;
+    color: #006ca4;
+}
+
+.line {
+    border: none;
+    height: 3px;
+    background-color: #7d97ad;;
+    margin-top: 5px;
+}
+
+
+/* css of left color_palette */
+#color_palette {
+    width: 10%;
+    height: 100%;
+    margin-left: 2.5%;
+}
+
+#square1 {
+    height: 60px;
+    width: 60px;
+    background-color: #006CA4;
+}
+
+#square2 {
+    height: 60px;
+    width: 60px;
+    background-color: #02b3e4;
+}
+
+#square3 {
+    height: 60px;
+    width: 60px;
+    background-color: #7d97ad;
+}
+
+
+/* css of hero image */
+#hero_container {
+    margin-top: 10px;
+    width: 80%;
+}
+
+#hero {
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+/* css of Featured Work */
+#featured_work {
+    margin-left: 15%;
+    width: 80%;
+}
+
+#featured_work p {
+    color: #7d97ad;
+}
+
+h2 {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #7d97ad;
+}
+
+#workscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.works {
+    width: 31.333%;
+    margin: 1%;
+}
+
+.demoimage {
+    width: 100%;
+}
+
+
+/* set the max width as 800px */
+@media screen and (min-width:1000px) {
+    body {
+        width: 1000px;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        order: 0;
+        margin: auto;
+        height: auto;
+    }
+
+    #hero_container {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #hero {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #featured_work {
+        margin-left: 0px;
+        width: 80%;
+        margin: auto;
+    }
+
+    #color_palette {
+        order: 3;
+        width: 80%;
+        height: 140px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    h2 {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    #square1 {
+        width: 9vw;
+        height: 9vw;
+        background-color: #006CA4;
+        margin: auto;
+    }
+
+    #square2 {
+        width: 9vw;
+        height: 9vw;
+        background-color: #2FB8FF;
+        margin: auto;
+    }
+
+    #square3 {
+        width: 9vw;
+        height: 9vw;
+        background-color: #7d97ad;
+        margin: auto;
+    }
+
+    .square {
+        width: 33.3%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2.2vw;
+
+    }
+}
+
+/* minor responsiveness */
+@media screen and (max-width:707px) {
+    #author {
+        width: 50%;
+        text-align: left;
+        display: inline-block;
+    }
+
+    #name {
+        font-size: 5vw;
+    }
+
+    #title {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width:550px){
+    #featured_work {
+        width: 80%;
+        text-align: center;
+    }
+
+    h2 {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    #workscontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .works {
+        width: 100%;
+        margin: 1%;
+    }
+
+    .demoimage {
+        width: 80%;
+    }
+}
