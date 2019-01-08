@@ -154,17 +154,17 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     h2 {
         width: 100%;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .social {
-        width: 8vw;
-        height: 8vw;
+        width: 6vw;
+        height: 6vw;
         margin: auto;
     }
 
@@ -174,7 +174,7 @@ h2 {
     }
 
     p {
-        font-size: 4vw;
+        font-size: 3vw;
 
     }
 
@@ -193,11 +193,13 @@ h2 {
     }
 
     #name {
-        font-size: 6vw;
+        font-size: 5vw;
+        text-align: left;
     }
 
     #title {
         font-size: 3vw;
+        text-align: left;
     }
 }
 
@@ -207,9 +209,19 @@ h2 {
         text-align: center;
     }
 
+    #socials {
+        margin-bottom: 20px;
+    }
+
+    .social {
+        width: 7vw;
+        height: 7vw;
+        margin: auto;
+    }
+
     h2 {
         width: 100%;
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     #workscontainer {
@@ -224,5 +236,9 @@ h2 {
 
     .demoimage {
         width: 95%;
+    }
+    p {
+        font-size: 4.5vw;
+
     }
 }
