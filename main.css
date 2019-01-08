@@ -22,8 +22,8 @@ header {
     display: inline-block;
 }
 
-.logo {
-    width: 25%;
+.logo{
+    width: 30%;
     border-radius: 50%;
 }
 
@@ -59,7 +59,7 @@ header {
 #socials {
     width: 10%;
     height: 100%;
-    margin-left: 2.5%;
+    margin-left: 3%;
 }
 
 
@@ -132,6 +132,7 @@ h2 {
     #hero_container {
         margin: auto;
         margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     #hero {
@@ -140,28 +141,30 @@ h2 {
     }
 
     #featured_work {
+        order:2;
         margin-left: 0px;
         width: 80%;
         margin: auto;
     }
 
     #socials {
-        order: 3;
-        width: 80%;
-        height: 140px;
+        order: 1;
+        width: 90%;
+        height: 60px;
         display: flex;
         flex-wrap: wrap;
         margin: auto;
+        margin-bottom: 30px;
     }
 
     h2 {
         width: 100%;
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
-    #social {
-        width: 9vw;
-        height: 9vw;
+    .social {
+        width: 6vw;
+        height: 6vw;
         margin: auto;
     }
 
@@ -173,6 +176,11 @@ h2 {
     p {
         font-size: 2.2vw;
 
+    }
+
+    .logo{
+        width: 40%;
+        border-radius: 50%;
     }
 }
 
