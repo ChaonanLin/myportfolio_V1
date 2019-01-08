@@ -104,8 +104,8 @@ h2 {
 }
 
 .works {
-    width: 31.333%;
-    margin: 1%;
+    width: 42%;
+    margin: 3%;
 }
 
 .demoimage {
@@ -145,7 +145,7 @@ h2 {
         margin: auto;
     }
 
-    #color_palette {
+    #socials {
         order: 3;
         width: 80%;
         height: 140px;
@@ -159,24 +159,9 @@ h2 {
         font-size: 3vw;
     }
 
-    #square1 {
+    #social {
         width: 9vw;
         height: 9vw;
-        background-color: #006CA4;
-        margin: auto;
-    }
-
-    #square2 {
-        width: 9vw;
-        height: 9vw;
-        background-color: #2FB8FF;
-        margin: auto;
-    }
-
-    #square3 {
-        width: 9vw;
-        height: 9vw;
-        background-color: #7d97ad;
         margin: auto;
     }
 
