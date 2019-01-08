@@ -216,10 +216,10 @@ h2 {
         display: flex;
         flex-wrap: wrap;
     }
-    .works {
+    /* .works {
         width: 100%;
         margin: 1%;
-    }
+    } */
 
     .demoimage {
         width: 80%;
