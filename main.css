@@ -56,28 +56,16 @@ header {
 
 
 /* css of left color_palette */
-#color_palette {
+#socials {
     width: 10%;
     height: 100%;
     margin-left: 2.5%;
 }
 
-#square1 {
-    height: 60px;
-    width: 60px;
-    background-color: #006CA4;
-}
 
-#square2 {
-    height: 60px;
-    width: 60px;
-    background-color: #02b3e4;
-}
-
-#square3 {
-    height: 60px;
-    width: 60px;
-    background-color: #7d97ad;
+.social {
+    height:50px;
+    width: 50px;
 }
 
 
