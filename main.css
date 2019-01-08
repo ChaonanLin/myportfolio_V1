@@ -163,8 +163,8 @@ h2 {
     }
 
     .social {
-        width: 6vw;
-        height: 6vw;
+        width: 8vw;
+        height: 8vw;
         margin: auto;
     }
 
@@ -174,7 +174,7 @@ h2 {
     }
 
     p {
-        font-size: 2.2vw;
+        font-size: 4vw;
 
     }
 
@@ -193,7 +193,7 @@ h2 {
     }
 
     #name {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     #title {
@@ -209,19 +209,20 @@ h2 {
 
     h2 {
         width: 100%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #workscontainer {
         display: flex;
         flex-wrap: wrap;
     }
-    /* .works {
+    .works {
         width: 100%;
         margin: 1%;
-    } */
+        margin-bottom: 20px;
+    }
 
     .demoimage {
-        width: 80%;
+        width: 95%;
     }
 }
